@@ -22,7 +22,10 @@ $SPEC{complete_country_code} = {
             req => 1,
             pos => 0,
         },
-        variant => [str=>{in=>['alpha-2','alpha-3'], default=>'alpha-2'}],
+        variant => {
+            schema => [str=>{in=>['alpha-2','alpha-3']}],
+            default => 'alpha-2',
+        },
     },
     result_naked => 1,
 };

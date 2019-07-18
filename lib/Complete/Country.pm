@@ -75,6 +75,8 @@ sub complete_country_code {
 
 =head1 SEE ALSO
 
+L<Complete::Currency>
+
 L<Complete::Language>
 
 =cut

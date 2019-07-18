@@ -72,4 +72,9 @@ sub complete_country_code {
  my $res = complete_country_code(word => 'V');
  # -> [qw/va vc ve vg vi vn vu/]
 
+
+=head1 SEE ALSO
+
+L<Complete::Language>
+
 =cut
